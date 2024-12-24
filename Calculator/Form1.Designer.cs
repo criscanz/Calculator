@@ -42,6 +42,13 @@
             button10 = new Button();
             button11 = new Button();
             button12 = new Button();
+            button13 = new Button();
+            button14 = new Button();
+            button15 = new Button();
+            button16 = new Button();
+            button17 = new Button();
+            button18 = new Button();
+            button19 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -55,7 +62,6 @@
             label1.RightToLeft = RightToLeft.No;
             label1.Size = new Size(405, 62);
             label1.TabIndex = 0;
-            label1.Text = "label1";
             label1.TextAlign = ContentAlignment.MiddleRight;
             // 
             // button1
@@ -215,7 +221,7 @@
             button11.FlatAppearance.MouseDownBackColor = SystemColors.ButtonShadow;
             button11.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
             button11.Font = new Font("Segoe UI", 25F);
-            button11.Location = new Point(333, 435);
+            button11.Location = new Point(192, 389);
             button11.Name = "button11";
             button11.Size = new Size(84, 84);
             button11.TabIndex = 11;
@@ -230,7 +236,7 @@
             button12.FlatAppearance.MouseDownBackColor = SystemColors.ButtonShadow;
             button12.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
             button12.Font = new Font("Segoe UI", 25F);
-            button12.Location = new Point(243, 435);
+            button12.Location = new Point(12, 389);
             button12.Name = "button12";
             button12.Size = new Size(84, 84);
             button12.TabIndex = 12;
@@ -238,11 +244,123 @@
             button12.UseVisualStyleBackColor = false;
             button12.Click += button12_Click;
             // 
+            // button13
+            // 
+            button13.Anchor = AnchorStyles.Top;
+            button13.BackColor = SystemColors.ButtonFace;
+            button13.FlatAppearance.MouseDownBackColor = SystemColors.ButtonShadow;
+            button13.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
+            button13.Font = new Font("Segoe UI", 25F);
+            button13.Location = new Point(333, 389);
+            button13.Name = "button13";
+            button13.Size = new Size(84, 84);
+            button13.TabIndex = 13;
+            button13.Text = "/";
+            button13.UseVisualStyleBackColor = false;
+            button13.Click += button13_Click;
+            // 
+            // button14
+            // 
+            button14.Anchor = AnchorStyles.Top;
+            button14.BackColor = SystemColors.ButtonFace;
+            button14.FlatAppearance.MouseDownBackColor = SystemColors.ButtonShadow;
+            button14.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
+            button14.Font = new Font("Segoe UI", 25F);
+            button14.Location = new Point(333, 299);
+            button14.Name = "button14";
+            button14.Size = new Size(84, 84);
+            button14.TabIndex = 14;
+            button14.Text = "x";
+            button14.UseVisualStyleBackColor = false;
+            button14.Click += button14_Click;
+            // 
+            // button15
+            // 
+            button15.Anchor = AnchorStyles.Top;
+            button15.BackColor = SystemColors.ButtonFace;
+            button15.FlatAppearance.MouseDownBackColor = SystemColors.ButtonShadow;
+            button15.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
+            button15.Font = new Font("Segoe UI", 25F);
+            button15.Location = new Point(333, 209);
+            button15.Name = "button15";
+            button15.Size = new Size(84, 84);
+            button15.TabIndex = 15;
+            button15.Text = "-";
+            button15.UseVisualStyleBackColor = false;
+            button15.Click += button15_Click;
+            // 
+            // button16
+            // 
+            button16.Anchor = AnchorStyles.Top;
+            button16.BackColor = SystemColors.ButtonFace;
+            button16.FlatAppearance.MouseDownBackColor = SystemColors.ButtonShadow;
+            button16.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
+            button16.Font = new Font("Segoe UI", 25F);
+            button16.Location = new Point(333, 119);
+            button16.Name = "button16";
+            button16.Size = new Size(84, 84);
+            button16.TabIndex = 16;
+            button16.Text = "+";
+            button16.UseVisualStyleBackColor = false;
+            button16.Click += button16_Click;
+            // 
+            // button17
+            // 
+            button17.Anchor = AnchorStyles.Top;
+            button17.BackColor = SystemColors.ButtonFace;
+            button17.FlatAppearance.MouseDownBackColor = SystemColors.ButtonShadow;
+            button17.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
+            button17.Font = new Font("Segoe UI", 17F);
+            button17.Location = new Point(12, 479);
+            button17.Name = "button17";
+            button17.Size = new Size(84, 40);
+            button17.TabIndex = 17;
+            button17.Text = "Clr";
+            button17.UseVisualStyleBackColor = false;
+            button17.Click += button17_Click;
+            // 
+            // button18
+            // 
+            button18.Anchor = AnchorStyles.Top;
+            button18.BackColor = SystemColors.ButtonFace;
+            button18.FlatAppearance.MouseDownBackColor = SystemColors.ButtonShadow;
+            button18.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
+            button18.Font = new Font("Segoe UI", 17F, FontStyle.Bold);
+            button18.Location = new Point(102, 479);
+            button18.Name = "button18";
+            button18.Size = new Size(84, 40);
+            button18.TabIndex = 18;
+            button18.Text = ".";
+            button18.UseVisualStyleBackColor = false;
+            button18.Click += button18_Click;
+            // 
+            // button19
+            // 
+            button19.Anchor = AnchorStyles.Top;
+            button19.BackColor = SystemColors.ButtonFace;
+            button19.FlatAppearance.MouseDownBackColor = SystemColors.ButtonShadow;
+            button19.FlatAppearance.MouseOverBackColor = SystemColors.ButtonHighlight;
+            button19.Font = new Font("Segoe UI", 17F);
+            button19.Location = new Point(192, 479);
+            button19.Name = "button19";
+            button19.Size = new Size(84, 40);
+            button19.TabIndex = 19;
+            button19.Text = "Neg";
+            button19.UseVisualStyleBackColor = false;
+            button19.Click += button19_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(429, 531);
+            Controls.Add(button19);
+            Controls.Add(button18);
+            Controls.Add(button17);
+            Controls.Add(button16);
+            Controls.Add(button15);
+            Controls.Add(button14);
+            Controls.Add(button13);
             Controls.Add(button12);
             Controls.Add(button11);
             Controls.Add(button10);
@@ -280,5 +398,12 @@
         private Button button10;
         private Button button11;
         private Button button12;
+        private Button button13;
+        private Button button14;
+        private Button button15;
+        private Button button16;
+        private Button button17;
+        private Button button18;
+        private Button button19;
     }
 }
